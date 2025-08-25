@@ -179,3 +179,39 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Exploit binaries & debugging
+*.out
+*.bin
+*.elf
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+core
+*.dump
+*.log
+
+# GDB / pwndbg / gef
+.gdb_history
+.gdbinit.local
+gef.py
+pwndbg/
+
+# Reverse engineering tools
+*.id0
+*.id1
+*.id2
+*.idb
+*.til
+*.i64
+*.dmp
+*.rdb
+*.r2
+
+# Temporary files
+*~
+*.tmp
+*.swp
+*.swo
